@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <form>
+        <h2>Search for a City:</h2>
+        <input type="text" placeholder="Name of City" id="city" name="city">
+        <button id="submitBtn">Submit</button>
+    </form>
+    <container>
+        <h3>City</h3>
+        <li id="temp">Temp:</li>
+        <li id="wind">Wind:</li>
+        <li id="humidity">Humidity:</li>
+    </container>
+    <div id="result">
+        <h2>5-Day Forecast</h2>
+        <ul class="weather-cards">
+            <li class="card">
+                <h3>(_______)</h3>
+                <h4>Temp:___</h4>
+                <h4>Wind:___</h4>
+                <h4>Humidity:____%</h4>
+            </li>
+            <li class="card">
+                <h3>(_______)</h3>
+                <h4>Temp:___</h4>
+                <h4>Wind:___</h4>
+                <h4>Humidity:____%</h4>
+            </li>
+            <li class="card">
+                <h3>(_______)</h3>
+                <h4>Temp:___</h4>
+                <h4>Wind:___</h4>
+                <h4>Humidity:____%</h4>
+            </li>
+            <li class="card">
+                <h3>(_______)</h3>
+                <h4>Temp:___</h4>
+                <h4>Wind:___</h4>
+                <h4>Humidity:____%</h4>
+            </li>
+            <li class="card">
+                <h3>(_______)</h3>
+                <h4>Temp:___</h4>
+                <h4>Wind:___</h4>
+                <h4>Humidity:____%</h4>
+            </li>
+        </ul>
+    </div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
